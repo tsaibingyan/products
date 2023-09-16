@@ -19,7 +19,7 @@ print(products)
 
 #印出購買紀錄
 for p in products:
-	print(p)
+	print(p[0], '價格是', p[1])
 
 #寫入檔案
 with open('products.csv', 'w', encoding='utf-8') as f:
